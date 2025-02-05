@@ -1,5 +1,5 @@
-Student Grades Query System
-Overview
+#### Student Grades Query System
+#### Overview 
 
 This C program processes student grades from three CSV files (subjects.csv, grades.csv, and marks.csv) and supports various queries related to grades, CGPA, SGPA, toppers, and statistics.
 Input Files
