@@ -59,8 +59,8 @@ Ensure all CSV files are in the working directory, then compile and run:
 gcc main.c -o grades
 ./grades
 
-Enter commands at the > prompt.
-    Example Queries
+### Enter commands at the > prompt.
+        #### Example Queries
         >grade 11122312 os
         AA
         >cgpa 11122312
