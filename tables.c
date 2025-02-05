@@ -5,7 +5,7 @@
 #include <string.h>
 #include <errno.h>
 #include <math.h>
-/* defining struct*/
+/* defining struct for storing data*/
 typedef struct subject {
 	char name[128];
 	int credits;
