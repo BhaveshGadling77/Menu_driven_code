@@ -60,14 +60,14 @@ gcc main.c -o grades
 ./grades
 
 Enter commands at the > prompt.
-Example Queries
->grade 11122312 os
-AA
->cgpa 11122312
-9.00
->failed 11010101
-dsa
->topnsub os 2
-112312321, 92
-11122312, 85
->exit
+    Example Queries
+        >grade 11122312 os
+        AA
+        >cgpa 11122312
+        9.00   
+        >failed 11010101
+        dsa
+        >topnsub os 2
+        112312321, 92
+        11122312, 85
+        >exit
