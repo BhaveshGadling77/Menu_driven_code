@@ -1,9 +1,9 @@
-#### Student Grades Query System
-#### Overview 
+## Student Grades Query System
+## Overview 
 
-This C program processes student grades from three CSV files (subjects.csv, grades.csv, and marks.csv) and supports various queries related to grades, CGPA, SGPA, toppers, and statistics.
+#This C program processes student grades from three CSV files (subjects.csv, grades.csv, and marks.csv) and supports various queries related to grades, CGPA, SGPA, toppers, and statistics.
 Input Files
-subjects.csv
+### subjects.csv
 
 Format:
 
@@ -14,7 +14,7 @@ Example:
 os,4,3
 dsa,3,2
 
-grades.csv
+### grades.csv
 
 Each row specifies grade boundaries for a subject.
 
@@ -26,7 +26,7 @@ Example:
 
 40,50,60,70,80,90,95
 
-marks.csv
+### marks.csv
 
 Each row contains student MIS ID followed by marks in subjects.
 
@@ -39,7 +39,7 @@ Example:
 11122312,85,78,92
 11010101,45,60,30
 
-Commands
+### Commands
 
     grade <MIS> <subject> – Get a student's grade.
     grade all – Display grades of all students.
@@ -52,7 +52,7 @@ Commands
     stdev <subject> – Compute standard deviation of marks.
     exit – Quit the program.
 
-Running the Program
+### Running the Program
 
 Ensure all CSV files are in the working directory, then compile and run:
 
